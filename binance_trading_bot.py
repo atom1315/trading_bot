@@ -18,7 +18,7 @@ def get_data(symbol):
     activiti['SYMBOL'] = symbol
     return activiti
 
-# Spisok simvolov pokazivaet vse screener
+
 def get_symbols():
     tickers = client.mark_price()
     symbols = []
